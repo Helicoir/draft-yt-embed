@@ -17,7 +17,15 @@
     "noUnusedLocals": true,
     "noUnusedParameters": true,
     "resolveJsonModule": true,
-    "skipLibCheck": true
+    "skipLibCheck": true,
+    "paths": {
+      "~/*": [
+        "./*"
+      ],
+      "@/*": [
+        "./*"
+      ]
+    },
   },
   "exclude": ["node_modules"],
   "include": ["**/*.ts", "**/*.tsx"]
