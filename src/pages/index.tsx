@@ -1,6 +1,7 @@
 import Link from 'next/link'
 import Layout from '../components/Layout'
 import { Card } from '~/components/atoms/Card'
+import {MoviePlayer} from '~/components/atoms/MoviePlayer'
 
 const IndexPage = () => (
   <Layout title="Home | Next.js + TypeScript Example">
@@ -13,6 +14,7 @@ const IndexPage = () => (
     <Card title="aaaa" />
     <Card title="bbbb" />
     <Card title="cccc" />
+    <MoviePlayer id="bn8IKuQxA_w" />
   </Layout>
 )
 
